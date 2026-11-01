@@ -22,7 +22,7 @@
 
 1. Клонировать репозиторий:
 ```bash
-   git clone <URL_вашего_репозитория>
+   git clone <https://github.com/Fraay/Flutter_Lab3.git>`
 ```
 
 2. Перейти в папку проекта:
