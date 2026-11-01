@@ -18,17 +18,37 @@
 
 ![Скриншот приложения](img/step9_Afanasev.png)
 
-## Как запустить
+## Запуск
 
-1. Клонировать репозиторий: `git clone <https://github.com/Fraay/Flutter_Lab3.git>`
-2. Перейти в папку проекта: `cd Flutter_Lab3`
-3. Выполнить `flutter pub get`
-4. Запустить командой `flutter run -d chrome`
+1. Клонировать репозиторий:
+```bash
+   git clone <URL_вашего_репозитория>
+```
 
-## Что изучили
+2. Перейти в папку проекта:
 
-1. Структуру Flutter-проекта и основные команды (`flutter create`, `flutter run`).
-2. Понятие виджета и дерева виджетов (Widget Tree).
-3. Базовые виджеты: `MaterialApp`, `Scaffold`, `Container`, `Center`, `Text`.
-4. Работу с Hot Reload (r) и Hot Restart (R).
-5. Оформление фона через `BoxDecoration` и `LinearGradient`, а также стилизацию текста через `TextStyle`.
+```bash
+    cd Flutter_Lab3
+```
+
+3. Выполнить:
+
+```bash
+   flutter pub get
+```
+
+4. Выполнить: flutter run -d chrome
+
+## Что изучили:
+
+* Установку и проверку окружения Flutter (`flutter doctor`, `flutter devices`).
+
+* Структуру Flutter-проекта и назначение основных папок (`lib/`, `web/`, `pubspec.yaml` и др.).
+
+* Базовые концепции: виджеты, дерево виджетов, `StatelessWidget` и `StatefulWidget`.
+
+* Цепочку запуска приложения: `main()` → `runApp()` → `MaterialApp()` → `home:`.
+
+* Работу с виджетами `Scaffold`, `Center`, `Container`, `Text`, `TextStyle`, `BoxDecoration`, `LinearGradient`.
+
+* Инструменты разработчика: Hot Reload (`r`) и Hot Restart (`R`), Flutter DevTools и Flutter Inspector.
